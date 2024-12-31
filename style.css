@@ -1,0 +1,291 @@
+html {
+    font-family: "jost", sans-serif;
+    display: grid;
+    place-items: center;
+    /* background-color: #0d011f;  */
+    background-color: #0d0d0d
+}
+
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;600&family=urbanist:wght@300;400;600;700;800;900&display=swap");
+
+h1 h2 h3  {
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: urbainist sans-serif;
+    color: #fff;
+}
+
+h2{
+    background:linear-gradient(to left,
+     #4ca8f2, #33d17a);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     color: transparent;
+     display: inline-block;
+}
+h1{
+    font-size: 80px;
+    color: #fff;
+}
+h4{
+    font-size: 40px;
+    color: #fff;
+    margin-left: 270px;
+}
+
+li,
+p,
+label {
+    font-family: urbanist;
+    letter-spacing: 0.06;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    font-family: "urbanist" , sans-serif;
+    letter-spacing: 1.2px;
+    word-spacing: 1px;
+    line-height: 1.56;
+    font-size: medium;
+    text-transform: capitalize;
+    color: #fff;
+}
+.paragraph{
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 130px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.paragraph-2{
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    color: #fff;
+    margin-left:130px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.paragraph-3{
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    color: #fff;
+    margin-left: 130px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.paragraph-4{
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 500px;
+    padding:20px;
+    color: #fff;
+    margin-left: 130px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+ul {
+    display: block;
+    gap: 1rem;
+    color: #fff;
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+ #home:hover{
+    color: green;
+    font-weight: bold;
+    font-size: small;
+}
+#about:hover{
+    color: green;
+    font-weight: bold;
+    font-size: small;
+}
+#services:hover{
+    color: green;
+    font-weight: bold;
+    font-size: small;
+}
+#contact:hover{
+    color: green;
+    font-weight: bold;
+    font-size: small;
+}
+.submit{
+     border: 2px solid;
+    font-weight: bold;
+    color: black;
+    width: 500px;
+    padding-right: 20px;
+    background-image:linear-gradient(to right, #00ff88,#007bff);
+   
+}
+/* .submit:hover{
+    font-weight: bold;
+    color: white;
+    background-color: #00bf72;
+} */
+.btn{
+    background-color: green;
+    font-weight: bolder;
+    color: white;
+    margin-left: 300px;
+}
+    .btn:hover{
+        background-color: white;
+        font-weight: bold;
+        color: black;
+       box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px,
+       rgba(0, 0, 0, 0.12) 0px -12px 30px,
+       rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+       rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+.second-button a:visited{
+    background-color: white;
+    font-weight: bolder;
+    color: black;
+    box-shadow:  rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.second-button:hover{
+    background-color: green;
+    font-weight: bold;
+    color: white; 
+
+}
+.strength{
+    padding-left: 230px;
+}
+.form-section{
+    background-color: #131313;
+    border-radius: 10px;
+    width: 500px;
+    padding: 30px;
+     margin-left:117px; 
+    border-color: #ccc;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      color: #333;
+}
+.our-services{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 245px;
+}
+.highlight{
+    background:linear-gradient(to right,
+    #00ff88,#007bff);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     color: transparent;
+     display: inline-block;
+}
+.touch{
+    position: relative;
+    height: 200px; 
+    position:absolute;
+    top: 10px;
+    right: 20px;
+    position: fixed;
+    /* left: 0; */
+     /* right: 0;  */
+}
+.as-section{
+    background:linear-gradient(to right,
+    #00ff88,#007bff);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     color: transparent;
+     display: inline-block;
+    font-size: 35px;
+     display: grid;
+    place-items: center; 
+    /* padding-left: 6rem; */
+}
+/* .hero-section{
+     height: 450px;
+    width: 800px; 
+    background: url(./Downloads/Building\ more\ secure\,\ vigilant\ and\ resilient\ organizations.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 47px;
+    padding-top: 110px;
+    border-radius: 30px;
+    margin-top: 40px
+    
+}  */
+  .get-in{
+    background:linear-gradient(to right,
+    #00ff88,#007bff);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     color: transparent;
+     display: inline-block;
+  }
+  
+#username{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-weight: bold;
+    background-color: #383838;
+    color: white;
+}
+#username:hover{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-weight: bold;
+    background-color: skyblue; 
+    color: black;
+}
+#email{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-weight: bold;
+    background-color: #383838;
+    color: white;
+}
+#email:hover{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-weight: bold;
+    background-color: skyblue; 
+    color: black;
+}
+#password{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-weight: bold;
+    background-color: #383838;
+    color: white;
+}
+#password:hover{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-weight: bold;
+    background-color: skyblue; 
+    color: black;
+}
+#textarea{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-weight: bold;
+    background-color: #383838;
+    color: white;
+}
+#textarea:hover{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-weight: bold;
+    background-color: skyblue; 
+    color: black;
+}
